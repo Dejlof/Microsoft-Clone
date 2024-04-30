@@ -1,0 +1,367 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                html body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    background: white;
+                    color: black;
+                    font-size: 15px;
+                    line-height: 1.5;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                header .container {
+                    width: 90%;
+                    margin: 0 auto;
+                    height: 60px;
+                    max-width: 1100px;
+                }
+                
+                .main-nav {
+                    display: flex;
+                    align-items: center;
+                    height: 60px;
+                    padding: 20px 0px;
+                    font-size: 13px;
+                    justify-content: space-between;
+                }
+                
+                .main-nav ul {
+                    list-style: none;
+                    display: flex;
+                }
+                
+                .main-nav ul li {
+                    padding: 0 10px;
+                }
+                
+                .main-nav ul li a {
+                    padding-bottom: 2px;
+                }
+                
+                .main-nav ul li a:hover {
+                    border-bottom: 2px solid black;
+                }
+                
+                .main-nav .left-nav {
+                    flex: 1;
+                }
+                
+                .logo img {
+                    width: 110px;
+                }
+                /*SHOWCASE MAIN SECTION*/
+                
+                #main-section {
+                    width: 100%;
+                }
+                
+                .main-section {
+                    height: 500px;
+                    max-width: 100%;
+                    background: url(showcase.jpg);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding-left: 10%;
+                    padding-right: 60%;
+                    color: white;
+                }
+                
+                .main-section h1 {
+                    font-size: 2em;
+                    line-height: 1em;
+                    font-weight: 600;
+                }
+                
+                .main-section p {
+                    line-height: 1.5em;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                
+                .main-section button {
+                    background-color: rgb(0, 132, 255);
+                    color: white;
+                    border: none;
+                    border-radius: 2px;
+                    -webkit-border-radius: 2px;
+                    -moz-border-radius: 2px;
+                    -ms-border-radius: 2px;
+                    -o-border-radius: 2px;
+                    padding: 12px;
+                    font-size: 1em;
+                    font-weight: bold;
+                }
+                
+                .main-section button:hover {
+                    background: white;
+                    cursor: pointer;
+                }
+                /*SHOWCASE MAIN SECTION*/
+                /*SECTION-COURSE*/
+                
+                #microsoft-courses {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                
+                .course-container {
+                    display: grid;
+                    margin: 100px 0px 100px 0px;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-gap: 1.5em;
+                }
+                
+                .course-image img {
+                    width: 100%;
+                }
+                
+                .course-text h2 {
+                    font-weight: 500;
+                }
+                
+                .course-text h2,
+                p,
+                a {
+                    padding-bottom: 10px;
+                }
+                
+                .course-text a {
+                    color: rgba(0, 81, 255, 0.925);
+                    font-weight: 600;
+                }
+                
+                .course-text a:hover {
+                    text-decoration: underline;
+                }
+                /*SECTION-COURSE*/
+                /*OUTLOOK*/
+                
+                .outlook {
+                    height: 550px;
+                    width: 90%;
+                    background: url(outlook.jpg);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding-left: 8%;
+                    padding-right: 60%;
+                    color: black;
+                    margin: 0 auto;
+                }
+                
+                .outlook:hover {
+                    cursor: pointer;
+                }
+                
+                .outlook h1 {
+                    font-size: 2em;
+                    line-height: 1em;
+                    font-weight: 600;
+                }
+                
+                .outlook p {
+                    line-height: 1.5em;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+                
+                .outlook button {
+                    background-color: rgb(0, 102, 255);
+                    color: white;
+                    border: none;
+                    border-radius: 2px;
+                    -webkit-border-radius: 2px;
+                    -moz-border-radius: 2px;
+                    -ms-border-radius: 2px;
+                    -o-border-radius: 2px;
+                    padding: 12px;
+                    font-size: 1em;
+                    font-weight: bold;
+                }
+                
+                .outlook button a {
+                    color: white;
+                }
+                
+                .main-section button:hover {
+                    background-color: rgb(16, 138, 252);
+                    cursor: pointer;
+                }
+                /*OUTLOOK*/
+                /*FOR BUSINESS*/
+                
+                #Business {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                
+                #Business .wrapper {
+                    margin: 100px 0px 50px 0px;
+                }
+                
+                #Business .wrapper h2 {
+                    font-weight: 600;
+                    padding-bottom: 10px;
+                    font-size: 2em;
+                }
+                
+                .business-container {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-gap: 1.5em;
+                    margin-bottom: 30px;
+                }
+                
+                .course-image img {
+                    width: 100%;
+                }
+                
+                #Business .wrapper .course-text h2 {
+                    font-weight: 500;
+                    font-size: 1.6em;
+                    line-height: 1.3em;
+                }
+                
+                #Business .wrapper .course-text p {
+                    font-size: 1.06em;
+                }
+                
+                .course-text h2,
+                p,
+                a {
+                    padding-bottom: 10px;
+                }
+                
+                .course-text a {
+                    color: rgba(0, 81, 255, 0.925);
+                    font-weight: 600;
+                }
+                
+                .course-text a:hover {
+                    text-decoration: underline;
+                }
+                
+                #Business .wrapper p {
+                    padding-bottom: 10px;
+                    font-size: 1.06em;
+                }
+                /*FOR BUSINESS*/
+                
+                .to-top {
+                    margin-left: 90%;
+                }
+                
+                .to-top button {
+                    background-color: rgb(207, 204, 204);
+                    color: white;
+                    border: none;
+                    border-radius: 2px;
+                    -webkit-border-radius: 2px;
+                    -moz-border-radius: 2px;
+                    -ms-border-radius: 2px;
+                    -o-border-radius: 2px;
+                    padding: 12px;
+                    font-size: 1em;
+                    font-weight: 600;
+                }
+                
+                .to-top button a {
+                    color: black;
+                }
+                
+                .to-top button:hover {
+                    background-color: white;
+                    box-shadow: 0px 0px 1px #888888;
+                    border: none;
+                    cursor: pointer;
+                }
+                /*FOOTER*/
+                
+                footer {
+                    background: rgb(245, 243, 240);
+                    margin-top: 50px;
+                }
+                
+                footer .outer-links {
+                    padding: 40px 0px 20px 80px;
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    width: 80%;
+                    grid-gap: 1em;
+                }
+                
+                footer ul {
+                    list-style: none;
+                }
+                
+                footer .outer-links ul li {
+                    line-height: 2em;
+                }
+                
+                footer .outer-links ul li h3 {
+                    color: rgba(12, 12, 12, 0.726);
+                    font-weight: 600;
+                    font-size: 1em;
+                }
+                
+                footer a {
+                    color: rgba(12, 12, 12, 0.726);
+                    font-size: 0.7em;
+                    font-weight: 400;
+                }
+                
+                footer a:hover {
+                    text-decoration: underline;
+                }
+                
+                footer .inner-links {
+                    padding: 10px 0px 20px 0px;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                
+                footer .inner-links ul {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                /*FOOTER*/
+                
+                @media screen and (max-width: 800px) {
+                    #main-section {
+                        width: 100%;
+                    }
+                    .main-section {
+                        height: 500px;
+                        width: 100%;
+                        background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP4-1399x600);
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                        padding-left: 10%;
+                        padding-right: 60%;
+                        color: white;
+                    }
+                }
